@@ -49,7 +49,7 @@ const Formulario = ({
 
     setError(false);
 
-    const objetoPaciente: Paciente = {
+    const objetoPaciente = {
       id: "",
       nombre,
       propietario,

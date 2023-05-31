@@ -23,10 +23,6 @@ function App() {
     setPacientes(pacientesActualizados);
   };
 
-  const handlePaciente = (paciente: any) => {
-    setPaciente(paciente);
-  };
-
   return (
     <div className="container mx-auto mt-20">
       <Header />
@@ -36,7 +32,7 @@ function App() {
           pacientes={pacientes}
           setPacientes={setPacientes}
           paciente={paciente}
-          setPaciente={handlePaciente}
+          setPaciente={setPaciente}
         />
 
         <ListadoPacientes
